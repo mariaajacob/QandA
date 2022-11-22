@@ -1,0 +1,53 @@
+.appContainer {
+  text-align: center;
+}
+
+.poweredBy {
+  margin-top: 30px;
+  color: #86dcff;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    width: 50%;
+  }
+
+  .Sonic-Speed {
+    margin-top: 30px;
+    animation: Sonic-Speed-spin infinite 20s linear;
+    height: 60%;
+    width: 60%;
+  }
+
+  .Shadow-Speed {
+    margin-top: 30px;
+    animation: Sonic-Speed-spin infinite 20s linear;
+    height: 40%;
+    width: 40%;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(2060deg);
+  }
+}
+
+@keyframes Sonic-Speed-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-10560deg);
+  }
+}

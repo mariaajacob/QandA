@@ -1,0 +1,15 @@
+{
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "eslint.workingDirectories": [
+        "front"
+    ],
+    "javascript.suggest.includeCompletionsForImportStatements": false,
+    "editor.formatOnSave": true,
+    "prettier.singleQuote": true,
+    "javascript.preferences.quoteStyle": "single"
+}
